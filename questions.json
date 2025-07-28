@@ -1,0 +1,462 @@
+[
+  {
+    "Question": "Qu'est-ce que JSX en React ?",
+    "CorrectAnswer": "Une syntaxe qui mélange HTML et JavaScript",
+    "Answer1": "Un langage différent de JavaScript",
+    "Answer2": "Un fichier CSS",
+    "Answer3": "Une API REST",
+    "Answer4": "Un compilateur TypeScript",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "À quoi sert `useState` dans React ?",
+    "CorrectAnswer": "À gérer l'état d'un composant",
+    "Answer1": "À styliser un composant",
+    "Answer2": "À créer un élément DOM",
+    "Answer3": "À importer une API",
+    "Answer4": "À définir des routes",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode React permet de gérer des effets de bord ?",
+    "CorrectAnswer": "useEffect",
+    "Answer1": "useState",
+    "Answer2": "useRef",
+    "Answer3": "useContext",
+    "Answer4": "useReducer",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Comment nomme-t-on une fonction React qui retourne du JSX ?",
+    "CorrectAnswer": "Un composant",
+    "Answer1": "Un hook",
+    "Answer2": "Un middleware",
+    "Answer3": "Un reducer",
+    "Answer4": "Un service",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel hook est utilisé pour créer une référence mutable ?",
+    "CorrectAnswer": "useRef",
+    "Answer1": "useState",
+    "Answer2": "useEffect",
+    "Answer3": "useMemo",
+    "Answer4": "useCallback",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle balise HTML crée un lien hypertexte ?",
+    "CorrectAnswer": "<a>",
+    "Answer1": "<link>",
+    "Answer2": "<button>",
+    "Answer3": "<nav>",
+    "Answer4": "<href>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle balise insère une image ?",
+    "CorrectAnswer": "<img>",
+    "Answer1": "<image>",
+    "Answer2": "<src>",
+    "Answer3": "<pic>",
+    "Answer4": "<photo>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle est la structure de base d'un document HTML ?",
+    "CorrectAnswer": "<!DOCTYPE html><html><head><body>",
+    "Answer1": "<header><main><footer>",
+    "Answer2": "<div><section><article>",
+    "Answer3": "<html5><head><body>",
+    "Answer4": "<!DOCTYPE><html><body>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel attribut HTML spécifie une classe CSS ?",
+    "CorrectAnswer": "class",
+    "Answer1": "id",
+    "Answer2": "name",
+    "Answer3": "style",
+    "Answer4": "className",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quels éléments HTML sont utilisés pour les titres ?",
+    "CorrectAnswer": "<h1> à <h6>",
+    "Answer1": "<head>",
+    "Answer2": "<title>",
+    "Answer3": "<heading>",
+    "Answer4": "<header>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel sélecteur CSS cible tous les éléments <p> ?",
+    "CorrectAnswer": "p",
+    "Answer1": ".p",
+    "Answer2": "#p",
+    "Answer3": "*p",
+    "Answer4": "paragraph",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Comment ajouter du CSS personnalisé dans HTML ?",
+    "CorrectAnswer": "<style>",
+    "Answer1": "<css>",
+    "Answer2": "<design>",
+    "Answer3": "<script>",
+    "Answer4": "<link>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Comment centrer un texte en CSS ?",
+    "CorrectAnswer": "text-align: center",
+    "Answer1": "align: center",
+    "Answer2": "justify-content: center",
+    "Answer3": "margin: auto",
+    "Answer4": "position: center",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle propriété CSS modifie la taille du texte ?",
+    "CorrectAnswer": "font-size",
+    "Answer1": "text-size",
+    "Answer2": "text-style",
+    "Answer3": "size",
+    "Answer4": "font-weight",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel préfixe CSS est utilisé pour les variables ?",
+    "CorrectAnswer": "--",
+    "Answer1": "$",
+    "Answer2": "@",
+    "Answer3": "var",
+    "Answer4": "css-",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode DOM sélectionne un élément par son ID ?",
+    "CorrectAnswer": "getElementById()",
+    "Answer1": "querySelector()",
+    "Answer2": "getElementsByClassName()",
+    "Answer3": "querySelectorAll()",
+    "Answer4": "findElement()",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que retourne document.querySelector('div') ?",
+    "CorrectAnswer": "Le premier élément div trouvé",
+    "Answer1": "Tous les éléments div",
+    "Answer2": "Une NodeList",
+    "Answer3": "Un tableau",
+    "Answer4": "null",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Comment ajouter un élément enfant dans le DOM ?",
+    "CorrectAnswer": "appendChild()",
+    "Answer1": "insert()",
+    "Answer2": "addChild()",
+    "Answer3": "push()",
+    "Answer4": "createElement()",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Comment modifier le texte d'un élément DOM ?",
+    "CorrectAnswer": "textContent",
+    "Answer1": "value",
+    "Answer2": "innerText",
+    "Answer3": "innerHTML",
+    "Answer4": "setText",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que permet l'événement 'click' ?",
+    "CorrectAnswer": "Détecter un clic utilisateur",
+    "Answer1": "Changer la couleur",
+    "Answer2": "Rediriger vers un lien",
+    "Answer3": "Valider un formulaire",
+    "Answer4": "Afficher une alerte",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel est l'objectif principal de fetch() ?",
+    "CorrectAnswer": "Effectuer des requêtes HTTP",
+    "Answer1": "Créer un serveur",
+    "Answer2": "Stocker des données",
+    "Answer3": "Manipuler le DOM",
+    "Answer4": "Gérer les événements",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que retourne fetch() ?",
+    "CorrectAnswer": "Une Promesse",
+    "Answer1": "Un tableau",
+    "Answer2": "Un objet JSON",
+    "Answer3": "Une chaîne",
+    "Answer4": "Un boolean",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode HTTP récupère des données ?",
+    "CorrectAnswer": "GET",
+    "Answer1": "POST",
+    "Answer2": "PUT",
+    "Answer3": "DELETE",
+    "Answer4": "UPDATE",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel code signifie 'OK' ?",
+    "CorrectAnswer": "200",
+    "Answer1": "404",
+    "Answer2": "500",
+    "Answer3": "302",
+    "Answer4": "401",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel en-tête est utilisé pour JSON ?",
+    "CorrectAnswer": "Content-Type: application/json",
+    "Answer1": "Accept: application/json",
+    "Answer2": "Access-Control-Allow-Origin",
+    "Answer3": "Authorization",
+    "Answer4": "Content-Length",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que signifie REST dans REST API ?",
+    "CorrectAnswer": "Representational State Transfer",
+    "Answer1": "Remote Server Text",
+    "Answer2": "Response Standard Test",
+    "Answer3": "Rapid Execution Structure Tool",
+    "Answer4": "React Endpoint Service Transfer",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que fait la méthode POST dans une API REST ?",
+    "CorrectAnswer": "Crée une nouvelle ressource",
+    "Answer1": "Lit une ressource",
+    "Answer2": "Supprime une ressource",
+    "Answer3": "Met à jour une ressource",
+    "Answer4": "Valide une ressource",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel format est couramment utilisé dans les API ?",
+    "CorrectAnswer": "JSON",
+    "Answer1": "XML",
+    "Answer2": "CSV",
+    "Answer3": "HTML",
+    "Answer4": "TXT",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que fait response.json() dans fetch ?",
+    "CorrectAnswer": "Convertit la réponse en JSON",
+    "Answer1": "Envoie les données",
+    "Answer2": "Affiche la réponse",
+    "Answer3": "Valide la réponse",
+    "Answer4": "Gère les erreurs",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Que signifie une erreur 404 ?",
+    "CorrectAnswer": "Page non trouvée",
+    "Answer1": "Accès interdit",
+    "Answer2": "Erreur serveur",
+    "Answer3": "Requête trop longue",
+    "Answer4": "Authentification requise",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel hook React permet de partager des données sans props ?",
+    "CorrectAnswer": "useContext",
+    "Answer1": "useState",
+    "Answer2": "useReducer",
+    "Answer3": "useMemo",
+    "Answer4": "useEffect",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode permet de rendre un composant conditionnellement ?",
+    "CorrectAnswer": "&& ou ternaire",
+    "Answer1": "if...else",
+    "Answer2": "switch",
+    "Answer3": "for loop",
+    "Answer4": "try...catch",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle propriété CSS crée un espace entre les éléments ?",
+    "CorrectAnswer": "margin",
+    "Answer1": "padding",
+    "Answer2": "border",
+    "Answer3": "gap",
+    "Answer4": "space",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle unité CSS est relative à la taille de police ?",
+    "CorrectAnswer": "em",
+    "Answer1": "px",
+    "Answer2": "rem",
+    "Answer3": "%",
+    "Answer4": "vw",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode JavaScript convertit une chaîne en nombre ?",
+    "CorrectAnswer": "parseInt()",
+    "Answer1": "toString()",
+    "Answer2": "toNumber()",
+    "Answer3": "stringify()",
+    "Answer4": "convert()",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel opérateur vérifie à la fois valeur et type ?",
+    "CorrectAnswer": "===",
+    "Answer1": "==",
+    "Answer2": "=",
+    "Answer3": "!==",
+    "Answer4": "||",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode transforme un tableau en chaîne ?",
+    "CorrectAnswer": "join()",
+    "Answer1": "split()",
+    "Answer2": "concat()",
+    "Answer3": "map()",
+    "Answer4": "toString()",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode HTTP met à jour une ressource ?",
+    "CorrectAnswer": "PUT",
+    "Answer1": "POST",
+    "Answer2": "GET",
+    "Answer3": "DELETE",
+    "Answer4": "PATCH",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel code signifie 'Créé' ?",
+    "CorrectAnswer": "201",
+    "Answer1": "200",
+    "Answer2": "204",
+    "Answer3": "301",
+    "Answer4": "400",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel élément HTML crée une liste non ordonnée ?",
+    "CorrectAnswer": "<ul>",
+    "Answer1": "<ol>",
+    "Answer2": "<li>",
+    "Answer3": "<list>",
+    "Answer4": "<dl>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle propriété CSS change la couleur d'arrière-plan ?",
+    "CorrectAnswer": "background-color",
+    "Answer1": "color",
+    "Answer2": "bg-color",
+    "Answer3": "background",
+    "Answer4": "back-color",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode JavaScript ajoute un élément à la fin d'un tableau ?",
+    "CorrectAnswer": "push()",
+    "Answer1": "pop()",
+    "Answer2": "shift()",
+    "Answer3": "unshift()",
+    "Answer4": "concat()",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quel sélecteur CSS cible un élément avec id='header' ?",
+    "CorrectAnswer": "#header",
+    "Answer1": ".header",
+    "Answer2": "header",
+    "Answer3": "*header",
+    "Answer4": "id.header",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle balise HTML définit un tableau ?",
+    "CorrectAnswer": "<table>",
+    "Answer1": "<tab>",
+    "Answer2": "<grid>",
+    "Answer3": "<data>",
+    "Answer4": "<list>",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle propriété CSS rend un élément invisible mais garde sa place ?",
+    "CorrectAnswer": "visibility: hidden",
+    "Answer1": "display: none",
+    "Answer2": "opacity: 0",
+    "Answer3": "position: absolute",
+    "Answer4": "width: 0",
+    "Time": 120,
+    "Points": 1000
+  },
+  {
+    "Question": "Quelle méthode React optimise les performances en mémoïsant ?",
+    "CorrectAnswer": "useMemo",
+    "Answer1": "useEffect",
+    "Answer2": "useState",
+    "Answer3": "useCallback",
+    "Answer4": "useRef",
+    "Time": 120,
+    "Points": 1000
+  }
+]
